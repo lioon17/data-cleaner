@@ -1,0 +1,30 @@
+[
+  {
+    "user": "alice",
+    "amount": "1200",
+    "score": "eighty",
+    "joined": "2023-01-15",
+    "valid": "true"
+  },
+  {
+    "user": "charlie",
+    "amount": "1600",
+    "score": "85",
+    "joined": "2023-01-18",
+    "valid": "true"
+  },
+  {
+    "user": "bob",
+    "amount": "400",
+    "score": "90",
+    "joined": "2023-01-20",
+    "valid": "false"
+  },
+  {
+    "user": "charlie",
+    "amount": "500",
+    "score": "88",
+    "joined": "2023-01-21",
+    "valid": "true"
+  }
+]

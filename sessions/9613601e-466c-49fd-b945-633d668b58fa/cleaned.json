@@ -1,0 +1,74 @@
+[
+  {
+    "user": "alice",
+    "is_user_missing": false,
+    "amount": "1200",
+    "is_amount_missing": false,
+    "score": "eighty",
+    "is_score_missing": false,
+    "joined": "2023-01-15",
+    "is_joined_missing": false,
+    "valid": "true",
+    "is_valid_missing": false
+  },
+  {
+    "user": "bob",
+    "is_user_missing": false,
+    "amount": "800",
+    "is_amount_missing": false,
+    "score": "",
+    "is_score_missing": true,
+    "joined": "2023-01-17",
+    "is_joined_missing": false,
+    "valid": "false",
+    "is_valid_missing": false
+  },
+  {
+    "user": "charlie",
+    "is_user_missing": false,
+    "amount": "1600",
+    "is_amount_missing": false,
+    "score": "85",
+    "is_score_missing": false,
+    "joined": "2023-01-18",
+    "is_joined_missing": false,
+    "valid": "true",
+    "is_valid_missing": false
+  },
+  {
+    "user": "alice",
+    "is_user_missing": false,
+    "amount": "300",
+    "is_amount_missing": false,
+    "score": "",
+    "is_score_missing": true,
+    "joined": "2023-01-19",
+    "is_joined_missing": false,
+    "valid": "true",
+    "is_valid_missing": false
+  },
+  {
+    "user": "bob",
+    "is_user_missing": false,
+    "amount": "400",
+    "is_amount_missing": false,
+    "score": "90",
+    "is_score_missing": false,
+    "joined": "2023-01-20",
+    "is_joined_missing": false,
+    "valid": "false",
+    "is_valid_missing": false
+  },
+  {
+    "user": "charlie",
+    "is_user_missing": false,
+    "amount": "500",
+    "is_amount_missing": false,
+    "score": "88",
+    "is_score_missing": false,
+    "joined": "2023-01-21",
+    "is_joined_missing": false,
+    "valid": "true",
+    "is_valid_missing": false
+  }
+]

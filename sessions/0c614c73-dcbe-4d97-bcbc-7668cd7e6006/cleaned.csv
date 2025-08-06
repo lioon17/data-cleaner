@@ -1,0 +1,7 @@
+user,is_user_missing,amount,is_amount_missing,score,is_score_missing,joined,is_joined_missing,valid,is_valid_missing
+alice,,1200,,eighty,,2023-01-15,,true,
+bob,,800,,,1,2023-01-17,,false,
+charlie,,1600,,85,,2023-01-18,,true,
+alice,,300,,,1,2023-01-19,,true,
+bob,,400,,90,,2023-01-20,,false,
+charlie,,500,,88,,2023-01-21,,true,

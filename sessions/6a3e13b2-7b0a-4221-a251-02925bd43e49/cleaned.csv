@@ -1,0 +1,5 @@
+user,amount,score,joined,valid
+alice,1200,eighty,2023-01-15,true
+charlie,1600,85,2023-01-18,true
+bob,400,90,2023-01-20,false
+charlie,500,88,2023-01-21,true
