@@ -14,7 +14,7 @@ export async function POST(req) {
   try {
     const { sessionId, config } = await req.json();
 
-    const rawPath = path.join(process.cwd(), 'sessions', sessionId, 'raw.csv');
+    const rawPath = path.join('/tmp', sessionId, 'raw.csv');
     const csvRaw = await fs.readFile(rawPath, 'utf8');
     const parsed = parse(csvRaw, { columns: true, skip_empty_lines: true });
 
@@ -26,7 +26,7 @@ export async function POST(req) {
     const deduped = config?.deduplicate ? deduplicateData(missingHandled) : missingHandled;
 
     // 💾 Save cleaned result
-    const sessionDir = path.join(process.cwd(), 'sessions', sessionId);
+    const sessionDir = path.join('/tmp', sessionId);
     await fs.writeFile(
       path.join(sessionDir, 'cleaned.json'),
       JSON.stringify(deduped, null, 2),
