@@ -20,11 +20,12 @@ export async function POST(req) {
     const content = await file.text();
     const records = parse(content, { columns: true, skip_empty_lines: true });
 
-    const sessionId = uuidv4();
-    const sessionPath = path.join(process.cwd(), 'sessions', sessionId);
-    await mkdir(sessionPath, { recursive: true });
+  const sessionId = uuidv4();
+  const sessionPath = path.join('/tmp', sessionId);  // ✅ Writable path on Vercel
+  await mkdir(sessionPath, { recursive: true });
 
-    await writeFile(path.join(sessionPath, 'raw.csv'), content);
+  await writeFile(path.join(sessionPath, 'raw.csv'), content);
+
 
     return NextResponse.json({
       sessionId,
